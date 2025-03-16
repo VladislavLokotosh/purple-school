@@ -8,11 +8,17 @@ body {
     #374151
   );
   color: #ffffff;
-  margin: 0px;
+  margin: 0;
+  min-height: 100vh;
 }
+
 nav {
-  margin: 71px 180px 80px 180px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 20px;
 }
+
 input {
   background-color: #1f293799;
   opacity: 0.6;
@@ -23,69 +29,96 @@ input {
 
 footer {
   opacity: 0.6;
-  margin: 0 606px 77px 608px;
+  margin-top: 100px;
+  margin-bottom: 77px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  text-align: center;
 }
+
 h1 {
   font-weight: 400;
   font-size: 24px;
-  margin-bottom: 30px;
-  margin-top: 0;
-  margin-left: 468px;
-  margin-right: 457px;
+  margin: 0 auto 30px;
+  max-width: 525px;
+  text-align: center;
 }
+
 h3 {
   font-weight: 400;
   font-size: 16px;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 ul a {
   font-weight: 400;
   font-size: 16px;
   color: #ffffff;
   text-decoration: none;
 }
+
 .title {
-  margin: 0 630px 14px 630px;
+  margin: 0 auto 14px;
+  max-width: 226px;
+  padding: 0 20px;
+  text-align: center;
 }
+
 .title,
 .job {
   font-weight: 400;
   font-size: 14px;
   opacity: 0.6;
 }
-.logo {
+
+.logo,
+.nav-logo {
   font-weight: 600;
   font-size: 18px;
 }
+
 .head {
   font-weight: 400;
   font-size: 20px;
-  margin: 0 365px 0 367px;
+  margin: 0 auto;
+  max-width: 730px;
+  padding: 0 20px;
 }
+
 .content {
   font-weight: 400;
   font-size: 16px;
-  margin: 20px 366px 103px 366px;
+  margin: 0 auto;
+  max-width: 730px;
+  padding: 0 20px;
 }
+
 .content a {
   color: #ffffff;
 }
+
 .profile {
-  margin-bottom: 28px;
-  margin-left: 640px;
-  margin-right: 586px;
+  margin: 0 auto 28px;
+  align-items: center;
+  text-align: center;
 }
+
 .profile img {
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: clamp(40px, 5vw, 60px);
+  height: clamp(40px, 5vw, 60px);
 }
+
 .blog img {
-  width: 896px;
-  height: 594;
   border-radius: 5px;
-  margin: 0 272px 69px;
+  display: block;
+  margin: 0 auto 69px;
+  width: calc(100% - 40px);
+  max-width: 896px;
 }
