@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(77deg, #f49caa 0%, #fcbdc4 60%);
+  font-family: 'open sans';
+}
+main {
+  background-color: #fffefe;
+}
+h1 {
+  font-size: 36px;
+  color: #333333;
+  font-weight: 700;
+}
+h2 {
+  font-size: 18px;
+  color: #666666;
+  font-weight: 400;
+}
+a{
+    color: #089FE0;
+    
+}
+input{
+    background-color: #F5F5F5;
+    font-weight: 400;
+    font-size: 16px;
+}
+button{
+    background-color: #089FE0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+label{
+    color: #666666;
+}

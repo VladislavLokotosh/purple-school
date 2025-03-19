@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(
+    to top,
+    #111827,
+    #1a2231,
+    #232c3b,
+    #2d3646,
+    #374151
+  );
+  color: #ffffff;
+  margin: 0;
+  min-height: 100vh;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+input {
+  background-color: #1f293799;
+  opacity: 0.6;
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+footer {
+  opacity: 0.6;
+  margin-top: 100px;
+  margin-bottom: 77px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0 auto 30px;
+  max-width: 525px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 auto 14px;
+  max-width: 226px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.title,
+.job {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.logo,
+.nav-logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.head {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 730px;
+  padding: 0 20px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 730px;
+  padding: 0 20px;
+}
+
+.content a {
+  color: #ffffff;
+}
+
+.profile {
+  margin: 0 auto 28px;
+  align-items: center;
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: clamp(40px, 5vw, 60px);
+  height: clamp(40px, 5vw, 60px);
+}
+
+.blog img {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 69px;
+  width: calc(100% - 40px);
+  max-width: 896px;
+}
