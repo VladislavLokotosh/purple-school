@@ -4,50 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Form</title>
   </head>
   <body>
-    <main>
-      <h1>Регистрация</h1>
-      <h2>Уже есть аккаунт?<a href="#">Войти</a></h2>
+    <main class="main__form">
+      <div class="form__title">
+        <h1>Регистрация</h1>
+        <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
+      </div>
       <form action="#">
-        <div>
-          <label for="organization"></label>
+        <div class="input__group">
           <input
             type="text"
             id="organization"
             name="organization"
             placeholder="Моя компания"
             required
+            class="input__box"
           />
-        </div>
-        <div>
-          <label for="name"></label>
-          <input type="text" id="name" name="name" placeholder="Имя" required />
-        </div>
-        <div>
-          <label for="sername"></label>
-          <input
-            type="text"
-            id="sername"
-            name="sername"
-            placeholder="Фамилия"
-            required
-          />
-        </div>
-        <div>
-          <label for="email"></label>
+          <div class="pers">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Имя"
+              required
+              class="input__box"
+            />
+
+            <input
+              type="text"
+              id="sername"
+              name="sername"
+              placeholder="Фамилия"
+              required
+              class="input__box"
+            />
+          </div>
           <input
             type="email"
             id="email"
             name="email"
             placeholder="E-mail"
             required
+            class="input__box"
           />
         </div>
-        <button>Зарегистрироваться</button>
-        <div>
+        <button class="submit__btn">
+          Зарегистрироваться<img src="img/arrow.svg" alt="стрелка" />
+        </button>
+        <div class="checkbox__agree">
           <input type="checkbox" id="agree" name="agree" />
           <label for="agree"
             >Я прочитал и принимаю <a href="#">Условия использования</a></label
