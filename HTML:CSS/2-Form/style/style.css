@@ -1,12 +1,97 @@
-body {
-  background: linear-gradient(77deg, #f49caa 0%, #fcbdc4 60%);
-  font-family: 'open sans';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "open sans";
 }
-main {
+body {
+  background: linear-gradient(
+      243.18deg,
+      #fdc5c5 25.45%,
+      rgba(242, 152, 222, 0) 100%
+    ),
+    linear-gradient(243.43deg, #ffa5a5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+    #f39494;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.main__form {
+  width: 100%;
+  max-width: 580px;
+  padding: 0 6rem;
   background-color: #fffefe;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.form__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 47px;
+  margin-top: 72px;
+}
+.input__group {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.input__box {
+  background-color: #f5f5f5;
+  color: #333333;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 100%;
+  padding: 9px 11px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.input__box::placeholder {
+  font-style: italic;
+  font-weight: 400;
+}
+.input__box:focus {
+  background-color: #fff;
+}
+.pers {
+  display: flex;
+  gap: 1px;
+}
+
+.submit__btn {
+  width: 100%;
+  padding: 9px;
+  background: #089fe0;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit__btn img {
+  height: 22px;
+}
+
+.submit__btn:hover {
+  background: #166fe5;
+}
+
+.checkbox__agree {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 22px 0 91px 0;
 }
 h1 {
-  font-size: 36px;
+  font-size: 2.3rem;
   color: #333333;
   font-weight: 700;
 }
@@ -15,21 +100,38 @@ h2 {
   color: #666666;
   font-weight: 400;
 }
-a{
-    color: #089FE0;
-    
+a {
+  color: #089fe0;
 }
-input{
-    background-color: #F5F5F5;
-    font-weight: 400;
-    font-size: 16px;
+
+input:focus {
+  border-color: #1877f2;
+  outline: none;
 }
-button{
-    background-color: #089FE0;
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
+label {
+  color: #666666;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
-label{
-    color: #666666;
+label a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .input__group .pers {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .main__form {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .company-title {
+    font-size: 1.1rem;
+  }
 }

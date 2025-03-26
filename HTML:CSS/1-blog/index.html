@@ -5,17 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Blog</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li class="nav-logo">В <a href="#" class="logo">Мой блог</a></li>
-          <li><a href="#">HTML и CSS</a></li>
-          <li><a href="#">Frontend</a></li>
-          <li><a href="#">Backend</a></li>
-        </ul>
+        <div class="nav-logo">
+          <img src="./img/logo1.svg" alt="logo" /><a href="#" class="logo"
+            >Мой блог</a
+          >
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">HTML и CSS</a></li>
+            <li><a href="#">Frontend</a></li>
+            <li><a href="#">Backend</a></li>
+          </ul>
+        </div>
         <div>
           <label for="search">Поиск</label>
           <input type="text" id="search" name="search" placeholder="Поиск" />
@@ -29,9 +41,13 @@
         </p>
         <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
         <section class="profile">
-          <img src="img/img1.png" alt="фото девушки" />
-          <h3>Наталья Васильева</h3>
-          <p class="job">Разработчик</p>
+          <div class="avatar">
+            <img src="img/img1.png" alt="фото девушки" />
+          </div>
+          <div class="author-info">
+            <h3>Наталья Васильева</h3>
+            <p class="job">Разработчик</p>
+          </div>
         </section>
       </section>
       <section class="blog">
@@ -46,11 +62,14 @@
           подтолкнуть посетителей к совершению целевых действий, повысить
           конверсию.
         </p>
+        <br />
         <p class="content">
           Универсального ответа на вопрос, как тот или иной цвет влияет на
           разных людей, нет. Эмоциональная и поведенческая реакция каждого
           человека зависит от личного опыта. Вместе с тем можно выделить
           определенные закономерности влияния цветов на поведение пользователей.
+          <br />
+          <br />
           В исследовании «Влияние цвета на маркетинг»
           <a
             href="https://www.researchgate.net/publication/235320162_Impact_of_color_on_marketing"
