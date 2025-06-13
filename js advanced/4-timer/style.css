@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+#countdown {
+    font-size: 2rem;
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.unit {
+    display: inline-block;
+    min-width: 120px;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    background: #e1f5fe;
+    border-radius: 5px;
+}
+.value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0277bd;
+}
+.label {
+    display: block;
+    font-size: 1rem;
+    color: #0288d1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
