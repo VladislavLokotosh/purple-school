@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Поиск фильмов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__logo">🎬</div>
+
+          <nav class="header__nav nav">
+            <a href="#" class="nav__link">Поиск фильмов</a>
+            <a href="#" class="nav__link">
+              Мои фильмы
+              <span class="nav__badge">2</span>
+            </a>
+            <a href="#" class="nav__link">Войти</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- SEARCH -->
+      <section class="search">
+        <div class="container">
+          <h1 class="search__title">Поиск</h1>
+          <p class="search__description">
+            Введите название фильма, сериала или мультфильма для поиска и
+            добавления в избранное.
+          </p>
+
+          <div class="search__form">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Введите название"
+            />
+            <button class="search__button">Искать</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOVIES -->
+      <section class="movies">
+        <div class="container">
+          <div class="movies__list">
+            <!-- CARD -->
+            <div class="movie-card">
+              <div class="movie-card__image-wrapper">
+                <img
+                  src="https://via.placeholder.com/300x450"
+                  alt=""
+                  class="movie-card__image"
+                />
+                <div class="movie-card__rating">⭐ 324</div>
+              </div>
+
+              <div class="movie-card__content">
+                <h3 class="movie-card__title">Black Widow</h3>
+                <button class="movie-card__favorite">👍 В избранное</button>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="movie-card__image-wrapper">
+                <img
+                  src="https://via.placeholder.com/300x450"
+                  alt=""
+                  class="movie-card__image"
+                />
+                <div class="movie-card__rating">⭐ 124</div>
+              </div>
+
+              <div class="movie-card__content">
+                <h3 class="movie-card__title">Shang Chi</h3>
+                <button class="movie-card__favorite">👍 В избранное</button>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="movie-card__image-wrapper">
+                <img
+                  src="https://via.placeholder.com/300x450"
+                  alt=""
+                  class="movie-card__image"
+                />
+                <div class="movie-card__rating">⭐ 235</div>
+              </div>
+
+              <div class="movie-card__content">
+                <h3 class="movie-card__title">Loki</h3>
+                <button class="movie-card__favorite">👍 В избранное</button>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <div class="movie-card__image-wrapper">
+                <img
+                  src="https://via.placeholder.com/300x450"
+                  alt=""
+                  class="movie-card__image"
+                />
+                <div class="movie-card__rating">⭐ 123</div>
+              </div>
+
+              <div class="movie-card__content">
+                <h3 class="movie-card__title">How I Met Your Mother</h3>
+                <button class="movie-card__favorite">👍 В избранное</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
